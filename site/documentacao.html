@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documentação | Teclado360</title>
+<meta name="description" content="Como instalar, digitar, montar fórmulas e integrar o Teclado360.">
+<meta name="theme-color" content="#F7F6FA">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='1' y='3' width='30' height='26' rx='7' fill='%235B21B6'/%3E%3Cg fill='%23fff'%3E%3Crect x='6' y='9' width='4' height='4' rx='1'/%3E%3Crect x='14' y='9' width='4' height='4' rx='1'/%3E%3Crect x='22' y='9' width='4' height='4' rx='1'/%3E%3Crect x='9' y='19' width='14' height='4' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="alternate" hreflang="en" href="en/documentacao.html">
+<script>try{if(localStorage.getItem('t360-site-tema')==='escuro'){document.documentElement.setAttribute('data-tema','escuro')}}catch(e){}</script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header class="topo"><div class="topo-dentro">
+<a class="marca" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="3" width="30" height="26" rx="7" fill="var(--marca)"/><g fill="var(--marca-texto)"><rect x="6" y="9" width="4" height="4" rx="1"/><rect x="14" y="9" width="4" height="4" rx="1"/><rect x="22" y="9" width="4" height="4" rx="1"/><rect x="9" y="19" width="14" height="4" rx="1.5"/></g></svg>Teclado360</a>
+<nav aria-label="Documentação"><a href="index.html">Apresentação</a><a href="documentacao.html" aria-current="page">Documentação</a><a href="privacidade.html">Privacidade</a></nav>
+<div class="acoes">
+<a class="botao-topo" href="en/documentacao.html" hreflang="en" lang="en" aria-label="English">EN</a>
+<button class="botao-topo" id="tema" type="button" data-escuro="Tema escuro" data-claro="Tema claro">Tema escuro</button>
+</div>
+</div></header>
+<main id="conteudo">
+<div class="doc"><nav class="doc-nav" aria-label="Documentação"><details class="doc-menu" open><summary>Páginas da documentação</summary><h2>Usar o Teclado360</h2><ul><li><a href="documentacao.html" aria-current="page">Documentação</a></li><li><a href="instalar.html">Instalar e ativar</a></li><li><a href="digitar.html">Digitar</a></li><li><a href="formulas.html">Modo fórmula</a></li><li><a href="desenvolvedores.html">Para quem desenvolve aplicativos</a></li></ul><h2>Licenças e privacidade</h2><ul><li><a href="licenca.html">Licença de uso do aplicativo</a></li><li><a href="privacidade.html">Política de privacidade</a></li><li><a href="terceiros.html">Componentes de terceiros</a></li></ul></details></nav><script>try{if(matchMedia('(max-width: 900px)').matches){document.querySelector('.doc-menu').removeAttribute('open')}}catch(e){}</script><article class="doc-corpo"><h1>Documentação</h1><p class="descricao">Como instalar, digitar, montar fórmulas e integrar o Teclado360.</p><ul class="indice"><li><a href="instalar.html"><b>Instalar e ativar</b><span>Como instalar o Teclado360, ativá-lo e trocar de teclado quando quiser.</span></a></li><li><a href="digitar.html"><b>Digitar</b><span>Acentos, símbolos, deslize, linha de sugestões e o que muda em cada tipo de campo.</span></a></li><li><a href="formulas.html"><b>Modo fórmula</b><span>O teclado de Matemática que aparece nos campos de fórmula, com a galeria de estruturas e o desenho da fórmula.</span></a></li><li><a href="desenvolvedores.html"><b>Para quem desenvolve aplicativos</b><span>Como marcar um campo do seu aplicativo para o modo fórmula e como o teclado lê os outros campos.</span></a></li><li><a href="licenca.html"><b>Licença de uso do aplicativo</b><span>O contrato entre você e quem publica o Teclado360 nas lojas de aplicativos.</span></a></li><li><a href="privacidade.html"><b>Política de privacidade</b><span>O que o Teclado360 guarda, onde guarda e o que nunca faz com o que você digita.</span></a></li><li><a href="terceiros.html"><b>Componentes de terceiros</b><span>O que vem de outros autores dentro do Teclado360, com a licença de cada um.</span></a></li></ul></article></div>
+</main>
+<footer class="rodape"><div class="dentro"><a href="documentacao.html">Documentação</a><a href="licenca.html">Licença de uso</a><a href="privacidade.html">Privacidade</a><a href="terceiros.html">Componentes de terceiros</a><span class="direitos">© 2026 Lucas Matos e Souza. Todos os direitos reservados.</span></div></footer>
+<script>
+(function () {
+  var b = document.getElementById('tema');
+  if (!b) { return; }
+  function label() { var d = document.documentElement.getAttribute('data-tema') === 'escuro'; b.textContent = d ? b.dataset.claro : b.dataset.escuro; b.setAttribute('aria-pressed', d ? 'true' : 'false'); }
+  label();
+  b.addEventListener('click', function () {
+    var d = document.documentElement.getAttribute('data-tema') === 'escuro';
+    if (d) { document.documentElement.removeAttribute('data-tema'); } else { document.documentElement.setAttribute('data-tema', 'escuro'); }
+    try { localStorage.setItem('t360-site-tema', d ? 'claro' : 'escuro'); } catch (e) {}
+    label();
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documentation | Teclado360</title>
+<meta name="description" content="How to install Teclado360, type, build formulas and integrate it.">
+<meta name="theme-color" content="#F7F6FA">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='1' y='3' width='30' height='26' rx='7' fill='%235B21B6'/%3E%3Cg fill='%23fff'%3E%3Crect x='6' y='9' width='4' height='4' rx='1'/%3E%3Crect x='14' y='9' width='4' height='4' rx='1'/%3E%3Crect x='22' y='9' width='4' height='4' rx='1'/%3E%3Crect x='9' y='19' width='14' height='4' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="alternate" hreflang="pt-BR" href="../documentacao.html">
+<script>try{if(localStorage.getItem('t360-site-tema')==='escuro'){document.documentElement.setAttribute('data-tema','escuro')}}catch(e){}</script>
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Skip to content</a>
+<header class="topo"><div class="topo-dentro">
+<a class="marca" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="3" width="30" height="26" rx="7" fill="var(--marca)"/><g fill="var(--marca-texto)"><rect x="6" y="9" width="4" height="4" rx="1"/><rect x="14" y="9" width="4" height="4" rx="1"/><rect x="22" y="9" width="4" height="4" rx="1"/><rect x="9" y="19" width="14" height="4" rx="1.5"/></g></svg>Teclado360</a>
+<nav aria-label="Documentation"><a href="index.html">Overview</a><a href="documentacao.html" aria-current="page">Documentation</a><a href="privacidade.html">Privacy</a></nav>
+<div class="acoes">
+<a class="botao-topo" href="../documentacao.html" hreflang="pt-BR" lang="pt-BR" aria-label="Português">PT</a>
+<button class="botao-topo" id="tema" type="button" data-escuro="Dark theme" data-claro="Light theme">Dark theme</button>
+</div>
+</div></header>
+<main id="conteudo">
+<div class="doc"><nav class="doc-nav" aria-label="Documentation"><details class="doc-menu" open><summary>Documentation pages</summary><h2>Using Teclado360</h2><ul><li><a href="documentacao.html" aria-current="page">Documentation</a></li><li><a href="instalar.html">Install and turn on</a></li><li><a href="digitar.html">Typing</a></li><li><a href="formulas.html">Formula mode</a></li><li><a href="desenvolvedores.html">For app developers</a></li></ul><h2>Licenses and privacy</h2><ul><li><a href="licenca.html">App license agreement</a></li><li><a href="privacidade.html">Privacy policy</a></li><li><a href="terceiros.html">Third-party components</a></li></ul></details></nav><script>try{if(matchMedia('(max-width: 900px)').matches){document.querySelector('.doc-menu').removeAttribute('open')}}catch(e){}</script><article class="doc-corpo"><h1>Documentation</h1><p class="descricao">How to install Teclado360, type, build formulas and integrate it.</p><ul class="indice"><li><a href="instalar.html"><b>Install and turn on</b><span>How to install Teclado360, turn it on and switch keyboards whenever you want.</span></a></li><li><a href="digitar.html"><b>Typing</b><span>Accents, symbols, swiping, the suggestion row and what changes in each kind of field.</span></a></li><li><a href="formulas.html"><b>Formula mode</b><span>The math keyboard that shows up in formula fields, with the gallery of structures and the formula drawing.</span></a></li><li><a href="desenvolvedores.html"><b>For app developers</b><span>How to mark a field in your app for formula mode and how the keyboard reads other fields.</span></a></li><li><a href="licenca.html"><b>App license agreement</b><span>The agreement between you and the publisher of Teclado360 in the app stores.</span></a></li><li><a href="privacidade.html"><b>Privacy policy</b><span>What Teclado360 stores, where it stores it and what it never does with what you type.</span></a></li><li><a href="terceiros.html"><b>Third-party components</b><span>What comes from other authors inside Teclado360, with each one&#x27;s license.</span></a></li></ul></article></div>
+</main>
+<footer class="rodape"><div class="dentro"><a href="documentacao.html">Documentation</a><a href="licenca.html">License agreement</a><a href="privacidade.html">Privacy</a><a href="terceiros.html">Third-party components</a><span class="direitos">© 2026 Lucas Matos e Souza. All rights reserved.</span></div></footer>
+<script>
+(function () {
+  var b = document.getElementById('tema');
+  if (!b) { return; }
+  function label() { var d = document.documentElement.getAttribute('data-tema') === 'escuro'; b.textContent = d ? b.dataset.claro : b.dataset.escuro; b.setAttribute('aria-pressed', d ? 'true' : 'false'); }
+  label();
+  b.addEventListener('click', function () {
+    var d = document.documentElement.getAttribute('data-tema') === 'escuro';
+    if (d) { document.documentElement.removeAttribute('data-tema'); } else { document.documentElement.setAttribute('data-tema', 'escuro'); }
+    try { localStorage.setItem('t360-site-tema', d ? 'claro' : 'escuro'); } catch (e) {}
+    label();
+  });
+})();
+</script>
+</body>
+</html>

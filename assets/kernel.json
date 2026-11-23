@@ -1,0 +1,388 @@
+{
+ "frames": [
+  {
+   "key": "x",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"38.29\" height=\"60.3\" viewBox=\"0 0 38.29 60.3\"><text x=\"6\" y=\"42.8\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><rect x=\"31.69\" y=\"6\" width=\"1.2\" height=\"48.3\" fill=\"var(--marca)\"/></svg>",
+   "latex": "x"
+  },
+  {
+   "key": "=",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"86.85\" height=\"60.3\" viewBox=\"0 0 86.85 60.3\"><text x=\"6\" y=\"42.8\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"42.8\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><rect x=\"80.25\" y=\"6\" width=\"1.2\" height=\"48.3\" fill=\"var(--marca)\"/></svg>",
+   "latex": "x="
+  },
+  {
+   "key": "□/□",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128.37\" height=\"68.53\" viewBox=\"0 0 128.37 68.53\"><text x=\"6\" y=\"45.05\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"45.05\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><rect x=\"99.64\" y=\"6.5\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"rgba(10,100,216,.15)\" stroke=\"var(--marca)\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.64\" y=\"40.49\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"32.63\" width=\"17.71\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{{}}{{}}"
+  },
+  {
+   "key": "−",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"135.71\" height=\"77.55\" viewBox=\"0 0 135.71 77.55\"><text x=\"6\" y=\"54.07\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"54.07\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"31.76\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><rect x=\"123.59\" y=\"6\" width=\"1.2\" height=\"33.81\" fill=\"var(--marca)\"/><rect x=\"103.31\" y=\"49.51\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"41.65\" width=\"25.04\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-}{{}}"
+  },
+  {
+   "key": "b",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"149.53\" height=\"77.55\" viewBox=\"0 0 149.53 77.55\"><text x=\"6\" y=\"54.07\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"54.07\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"31.76\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"31.76\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><rect x=\"137.41\" y=\"6\" width=\"1.2\" height=\"33.81\" fill=\"var(--marca)\"/><rect x=\"110.22\" y=\"49.51\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"41.65\" width=\"38.86\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b}{{}}"
+  },
+  {
+   "key": "±",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"174.57\" height=\"77.55\" viewBox=\"0 0 174.57 77.55\"><text x=\"6\" y=\"54.07\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"54.07\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"31.76\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"31.76\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"138.01\" y=\"31.76\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">±</text><rect x=\"162.45\" y=\"6\" width=\"1.2\" height=\"33.81\" fill=\"var(--marca)\"/><rect x=\"122.74\" y=\"49.51\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"41.65\" width=\"63.91\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b\\pm}{{}}"
+  },
+  {
+   "key": "√□",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"222.32\" height=\"72.08\" viewBox=\"0 0 222.32 72.08\"><text x=\"6\" y=\"48.6\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"48.6\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"30.48\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"30.48\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"138.01\" y=\"30.48\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">±</text><path d=\"M163.05,22.34 L167.88,20.17 L175.12,33.7 L189.87,7.42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linejoin=\"round\"/><rect x=\"189.87\" y=\"6.65\" width=\"20.93\" height=\"1.29\" fill=\"currentColor\"/><rect x=\"191.98\" y=\"10.05\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"rgba(10,100,216,.15)\" stroke=\"var(--marca)\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"146.62\" y=\"44.04\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"36.18\" width=\"111.66\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b\\pm\\sqrt{{}}}{{}}"
+  },
+  {
+   "key": "b",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"218.92\" height=\"82.7\" viewBox=\"0 0 218.92 82.7\"><text x=\"6\" y=\"59.22\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"59.22\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"138.01\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">±</text><path d=\"M163.05,28.87 L167.97,25.8 L175.34,44.96 L190.36,7.41\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linejoin=\"round\"/><rect x=\"190.36\" y=\"6.64\" width=\"17.04\" height=\"1.29\" fill=\"currentColor\"/><text x=\"191.97\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><rect x=\"205.19\" y=\"9.54\" width=\"1.2\" height=\"33.81\" fill=\"var(--marca)\"/><rect x=\"144.92\" y=\"54.66\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"46.8\" width=\"108.26\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b\\pm\\sqrt{b}}{{}}"
+  },
+  {
+   "key": "□²",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"232.03\" height=\"82.7\" viewBox=\"0 0 232.03 82.7\"><text x=\"6\" y=\"59.22\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"59.22\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"138.01\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">±</text><path d=\"M163.05,28.87 L167.97,25.8 L175.34,44.96 L190.36,7.41\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linejoin=\"round\"/><rect x=\"190.36\" y=\"6.64\" width=\"30.15\" height=\"1.29\" fill=\"currentColor\"/><text x=\"191.97\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"205.79\" y=\"26.09\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"23\" fill=\"currentColor\">2</text><rect x=\"218.3\" y=\"9.54\" width=\"1.2\" height=\"33.81\" fill=\"var(--marca)\"/><rect x=\"151.47\" y=\"54.66\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"46.8\" width=\"121.37\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b\\pm\\sqrt{b^2}}{{}}"
+  },
+  {
+   "key": "−",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"257.08\" height=\"82.7\" viewBox=\"0 0 257.08 82.7\"><text x=\"6\" y=\"59.22\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"59.22\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"138.01\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">±</text><path d=\"M163.05,28.87 L167.97,25.8 L175.34,44.96 L190.36,7.41\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linejoin=\"round\"/><rect x=\"190.36\" y=\"6.64\" width=\"55.19\" height=\"1.29\" fill=\"currentColor\"/><text x=\"191.97\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"205.79\" y=\"26.09\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"23\" fill=\"currentColor\">2</text><text x=\"218.9\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><rect x=\"243.35\" y=\"9.54\" width=\"1.2\" height=\"33.81\" fill=\"var(--marca)\"/><rect x=\"164\" y=\"54.66\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"46.8\" width=\"146.41\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b\\pm\\sqrt{b^2-}}{{}}"
+  },
+  {
+   "key": "4",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"273.18\" height=\"82.7\" viewBox=\"0 0 273.18 82.7\"><text x=\"6\" y=\"59.22\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"59.22\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"138.01\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">±</text><path d=\"M163.05,28.87 L167.97,25.8 L175.34,44.96 L190.36,7.41\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linejoin=\"round\"/><rect x=\"190.36\" y=\"6.64\" width=\"71.29\" height=\"1.29\" fill=\"currentColor\"/><text x=\"191.97\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"205.79\" y=\"26.09\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"23\" fill=\"currentColor\">2</text><text x=\"218.9\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"243.95\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">4</text><rect x=\"259.45\" y=\"9.54\" width=\"1.2\" height=\"33.81\" fill=\"var(--marca)\"/><rect x=\"172.05\" y=\"54.66\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"46.8\" width=\"162.51\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b\\pm\\sqrt{b^2-4}}{{}}"
+  },
+  {
+   "key": "a",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"290.2\" height=\"82.7\" viewBox=\"0 0 290.2 82.7\"><text x=\"6\" y=\"59.22\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"59.22\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"138.01\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">±</text><path d=\"M163.05,28.87 L167.97,25.8 L175.34,44.96 L190.36,7.41\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linejoin=\"round\"/><rect x=\"190.36\" y=\"6.64\" width=\"88.31\" height=\"1.29\" fill=\"currentColor\"/><text x=\"191.97\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"205.79\" y=\"26.09\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"23\" fill=\"currentColor\">2</text><text x=\"218.9\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"243.95\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">4</text><text x=\"260.05\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">a</text><rect x=\"276.47\" y=\"9.54\" width=\"1.2\" height=\"33.81\" fill=\"var(--marca)\"/><rect x=\"180.56\" y=\"54.66\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"46.8\" width=\"179.53\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b\\pm\\sqrt{b^2-4a}}{{}}"
+  },
+  {
+   "key": "c",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"304.13\" height=\"82.7\" viewBox=\"0 0 304.13 82.7\"><text x=\"6\" y=\"59.22\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"59.22\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"138.01\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">±</text><path d=\"M163.05,28.87 L167.97,25.8 L175.34,44.96 L190.36,7.41\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linejoin=\"round\"/><rect x=\"190.36\" y=\"6.64\" width=\"102.25\" height=\"1.29\" fill=\"currentColor\"/><text x=\"191.97\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"205.79\" y=\"26.09\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"23\" fill=\"currentColor\">2</text><text x=\"218.9\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"243.95\" y=\"35.3\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">4</text><text x=\"260.05\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">a</text><text x=\"277.07\" y=\"35.3\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">c</text><rect x=\"290.4\" y=\"9.54\" width=\"1.2\" height=\"33.81\" fill=\"var(--marca)\"/><rect x=\"187.52\" y=\"54.66\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"46.8\" width=\"193.47\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{{}}"
+  },
+  {
+   "key": "⇥",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"303.64\" height=\"75.61\" viewBox=\"0 0 303.64 75.61\"><text x=\"6\" y=\"52.13\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"52.13\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"138.01\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">±</text><path d=\"M163.05,24.76 L167.88,22.26 L175.12,37.87 L189.87,7.42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linejoin=\"round\"/><rect x=\"189.87\" y=\"6.65\" width=\"102.25\" height=\"1.29\" fill=\"currentColor\"/><text x=\"191.48\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"205.3\" y=\"24.37\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"23\" fill=\"currentColor\">2</text><text x=\"218.41\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"243.46\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">4</text><text x=\"259.56\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">a</text><text x=\"276.58\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">c</text><rect x=\"187.28\" y=\"47.57\" width=\"16.71\" height=\"21.54\" rx=\"1.5\" fill=\"rgba(10,100,216,.15)\" stroke=\"var(--marca)\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"99.14\" y=\"39.71\" width=\"192.98\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{{}}"
+  },
+  {
+   "key": "2",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"303.64\" height=\"83.2\" viewBox=\"0 0 303.64 83.2\"><text x=\"6\" y=\"52.13\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"52.13\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"138.01\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">±</text><path d=\"M163.05,24.76 L167.88,22.26 L175.12,37.87 L189.87,7.42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linejoin=\"round\"/><rect x=\"189.87\" y=\"6.65\" width=\"102.25\" height=\"1.29\" fill=\"currentColor\"/><text x=\"191.48\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"205.3\" y=\"24.37\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"23\" fill=\"currentColor\">2</text><text x=\"218.41\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"243.46\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">4</text><text x=\"259.56\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">a</text><text x=\"276.58\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">c</text><text x=\"187.58\" y=\"69.15\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">2</text><rect x=\"203.08\" y=\"43.39\" width=\"1.2\" height=\"33.81\" fill=\"var(--marca)\"/><rect x=\"99.14\" y=\"39.71\" width=\"192.98\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2}"
+  },
+  {
+   "key": "a",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"303.64\" height=\"83.2\" viewBox=\"0 0 303.64 83.2\"><text x=\"6\" y=\"52.13\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">x</text><text x=\"45.07\" y=\"52.13\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"46\" fill=\"currentColor\">=</text><text x=\"99.14\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"124.19\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"138.01\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">±</text><path d=\"M163.05,24.76 L167.88,22.26 L175.12,37.87 L189.87,7.42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linejoin=\"round\"/><rect x=\"189.87\" y=\"6.65\" width=\"102.25\" height=\"1.29\" fill=\"currentColor\"/><text x=\"191.48\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">b</text><text x=\"205.3\" y=\"24.37\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"23\" fill=\"currentColor\">2</text><text x=\"218.41\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">−</text><text x=\"243.46\" y=\"33.58\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">4</text><text x=\"259.56\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">a</text><text x=\"276.58\" y=\"33.58\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">c</text><text x=\"179.07\" y=\"69.15\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">2</text><text x=\"195.17\" y=\"69.15\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"32.2\" fill=\"currentColor\">a</text><rect x=\"211.59\" y=\"43.39\" width=\"1.2\" height=\"33.81\" fill=\"var(--marca)\"/><rect x=\"99.14\" y=\"39.71\" width=\"192.98\" height=\"1.84\" fill=\"currentColor\"/></svg>",
+   "latex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}"
+  }
+ ],
+ "gallery": [
+  {
+   "name": "Fração empilhada",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"38.86\" height=\"82.14\" viewBox=\"0 0 38.86 82.14\"><rect x=\"10.58\" y=\"6.5\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"10.58\" y=\"52.84\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"10.08\" y=\"41.94\" width=\"18.7\" height=\"1.36\" fill=\"currentColor\"/></svg>"
+  },
+  {
+   "name": "Raiz com índice",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"65.82\" height=\"44.56\" viewBox=\"0 0 65.82 44.56\"><rect x=\"16.13\" y=\"7.18\" width=\"8.35\" height=\"10.9\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><path d=\"M9.4,25.17 L14.5,22.62 L22.14,38.56 L37.72,7.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.63\" stroke-linejoin=\"round\"/><rect x=\"37.72\" y=\"6.68\" width=\"22.1\" height=\"1.36\" fill=\"currentColor\"/><rect x=\"39.92\" y=\"13.56\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/></svg>"
+  },
+  {
+   "name": "Integral de superfície",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"73.22\" height=\"87.54\" viewBox=\"0 0 73.22 87.54\"><text x=\"6\" y=\"52.24\" font-family=\"G360 Matematica Tamanho2\" font-weight=\"normal\" font-size=\"34\" fill=\"currentColor\">∯</text><rect x=\"49.02\" y=\"30.67\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/></svg>"
+  },
+  {
+   "name": "Somatório com limites",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"85.48\" height=\"117.77\" viewBox=\"0 0 85.48 117.77\"><text x=\"6\" y=\"67.37\" font-family=\"G360 Matematica Tamanho2\" font-weight=\"normal\" font-size=\"34\" fill=\"currentColor\">∑</text><rect x=\"24.51\" y=\"9.9\" width=\"12.09\" height=\"15.66\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"24.51\" y=\"92.21\" width=\"12.09\" height=\"15.66\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"61.28\" y=\"45.77\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/></svg>"
+  },
+  {
+   "name": "Sistema ou função por partes",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"107.88\" height=\"97\" viewBox=\"0 0 107.88 97\"><path d=\"M19.6,6 Q11.95,6 13.65,27.25 T8.55,48.5 Q13.65,57 13.65,69.75 T19.6,91\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.98\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"26.9\" y=\"14.66\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"79.6\" y=\"14.66\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"26.9\" y=\"55.46\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"79.6\" y=\"55.46\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/></svg>"
+  },
+  {
+   "name": "Vetor AB",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"63.29\" height=\"46.11\" viewBox=\"0 0 63.29 46.11\"><text x=\"6\" y=\"40.11\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"34\" fill=\"currentColor\">A</text><text x=\"31.5\" y=\"40.11\" font-family=\"G360 Matematica Letras\" font-weight=\"normal\" font-size=\"34\" fill=\"currentColor\">B</text><path d=\"M6,14.8 H57.29 M52.29,11.8 L57.29,14.8 L52.29,17.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+   "name": "Limite",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"83.59\" height=\"61.31\" viewBox=\"0 0 83.59 61.31\"><text x=\"6\" y=\"29.61\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"34\" fill=\"currentColor\">l</text><text x=\"15.44\" y=\"29.61\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"34\" fill=\"currentColor\">i</text><text x=\"24.89\" y=\"29.61\" font-family=\"G360 Matematica\" font-weight=\"normal\" font-size=\"34\" fill=\"currentColor\">m</text><rect x=\"23.57\" y=\"35.75\" width=\"12.09\" height=\"15.66\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"59.39\" y=\"8.01\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/></svg>"
+  },
+  {
+   "name": "Matriz entre colchetes",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120.8\" height=\"97\" viewBox=\"0 0 120.8 97\"><path d=\"M17.48,6 H10.59 V91 H17.48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.98\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"25.2\" y=\"14.66\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"77.9\" y=\"14.66\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"25.2\" y=\"55.46\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><rect x=\"77.9\" y=\"55.46\" width=\"17.7\" height=\"22.8\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\" stroke-dasharray=\"2 1.6\"/><path d=\"M103.33,6 H110.21 V91 H103.33\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.98\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  }
+ ],
+ "keyboard": [
+  [
+   {
+    "label": "123",
+    "width": 200,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "f(x)",
+    "width": 200,
+    "fn": true,
+    "hold": false
+   },
+   {
+    "label": "abc",
+    "width": 200,
+    "fn": true,
+    "hold": false
+   },
+   {
+    "label": "αβγ",
+    "width": 200,
+    "fn": true,
+    "hold": false
+   },
+   {
+    "label": "□⁄□…",
+    "width": 200,
+    "fn": true,
+    "hold": false
+   }
+  ],
+  [
+   {
+    "label": "x",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": "n",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": "7",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "8",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "9",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "□/□",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": "(",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": ")",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": "π",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": "e",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   }
+  ],
+  [
+   {
+    "label": "<",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": ">",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": "4",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "5",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "6",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "×",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": "□²",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": "□ⁿ",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "√□",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "ⁿ√□",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   }
+  ],
+  [
+   {
+    "label": "≤",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "≥",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "1",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "2",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "3",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "−",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": "□ₙ",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "|□|",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "∞",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "⌫",
+    "width": 100,
+    "fn": true,
+    "hold": false
+   }
+  ],
+  [
+   {
+    "label": "←",
+    "width": 100,
+    "fn": true,
+    "hold": false
+   },
+   {
+    "label": "→",
+    "width": 100,
+    "fn": true,
+    "hold": false
+   },
+   {
+    "label": "0",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": ",",
+    "width": 100,
+    "fn": false,
+    "hold": false
+   },
+   {
+    "label": "=",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": "+",
+    "width": 100,
+    "fn": false,
+    "hold": true
+   },
+   {
+    "label": "⇥",
+    "width": 100,
+    "fn": true,
+    "hold": false
+   },
+   {
+    "label": "↵",
+    "width": 300,
+    "fn": true,
+    "hold": false
+   }
+  ]
+ ]
+}

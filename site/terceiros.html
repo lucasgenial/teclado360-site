@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Componentes de terceiros | Teclado360</title>
+<meta name="description" content="O que vem de outros autores dentro do Teclado360, com a licença de cada um.">
+<meta name="theme-color" content="#F7F6FA">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='1' y='3' width='30' height='26' rx='7' fill='%235B21B6'/%3E%3Cg fill='%23fff'%3E%3Crect x='6' y='9' width='4' height='4' rx='1'/%3E%3Crect x='14' y='9' width='4' height='4' rx='1'/%3E%3Crect x='22' y='9' width='4' height='4' rx='1'/%3E%3Crect x='9' y='19' width='14' height='4' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="alternate" hreflang="en" href="en/terceiros.html">
+<script>try{if(localStorage.getItem('t360-site-tema')==='escuro'){document.documentElement.setAttribute('data-tema','escuro')}}catch(e){}</script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header class="topo"><div class="topo-dentro">
+<a class="marca" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="3" width="30" height="26" rx="7" fill="var(--marca)"/><g fill="var(--marca-texto)"><rect x="6" y="9" width="4" height="4" rx="1"/><rect x="14" y="9" width="4" height="4" rx="1"/><rect x="22" y="9" width="4" height="4" rx="1"/><rect x="9" y="19" width="14" height="4" rx="1.5"/></g></svg>Teclado360</a>
+<nav aria-label="Documentação"><a href="index.html">Apresentação</a><a href="documentacao.html" aria-current="page">Documentação</a><a href="privacidade.html">Privacidade</a></nav>
+<div class="acoes">
+<a class="botao-topo" href="en/terceiros.html" hreflang="en" lang="en" aria-label="English">EN</a>
+<button class="botao-topo" id="tema" type="button" data-escuro="Tema escuro" data-claro="Tema claro">Tema escuro</button>
+</div>
+</div></header>
+<main id="conteudo">
+<div class="doc"><nav class="doc-nav" aria-label="Documentação"><details class="doc-menu" open><summary>Páginas da documentação</summary><h2>Usar o Teclado360</h2><ul><li><a href="documentacao.html">Documentação</a></li><li><a href="instalar.html">Instalar e ativar</a></li><li><a href="digitar.html">Digitar</a></li><li><a href="formulas.html">Modo fórmula</a></li><li><a href="desenvolvedores.html">Para quem desenvolve aplicativos</a></li></ul><h2>Licenças e privacidade</h2><ul><li><a href="licenca.html">Licença de uso do aplicativo</a></li><li><a href="privacidade.html">Política de privacidade</a></li><li><a href="terceiros.html" aria-current="page">Componentes de terceiros</a></li></ul></details></nav><script>try{if(matchMedia('(max-width: 900px)').matches){document.querySelector('.doc-menu').removeAttribute('open')}}catch(e){}</script><article class="doc-corpo"><h1>Componentes de terceiros</h1><p class="descricao">O que vem de outros autores dentro do Teclado360, com a licença de cada um.</p><p>O Teclado360 é escrito por nós, sem bibliotecas de terceiros. Alguns dados, fontes e as bibliotecas padrão das linguagens vêm de outros autores e seguem as licenças abaixo, que têm prioridade sobre a <a href="licenca.html">Licença de uso</a> no que se refere a esses componentes.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Componente</th>
+<th>Onde está</th>
+<th>Licença</th>
+<th>Autoria</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fonte G360 Matematica (regular, negrito, letras, conjuntos, tamanhos 1 e 2), derivada das fontes do KaTeX, com glifos novos da família G360 (∯ e ∰)</td>
+<td>Desenho das fórmulas</td>
+<td>SIL Open Font License 1.1</td>
+<td>Design Science, Inc. (2009-2010) e Khan Academy (2014-2018), nas fontes originais com o nome reservado KaTeX; modificações de Lucas Matos e Souza (2026)</td>
+</tr>
+<tr class="even">
+<td>Medidas das fontes do KaTeX (altura, profundidade, largura)</td>
+<td>Motor do teclado</td>
+<td>MIT</td>
+<td>Khan Academy e colaboradores (2013-2020)</td>
+</tr>
+<tr class="odd">
+<td>Listas de palavras do português e do inglês (FrequencyWords, legendas do OpenSubtitles 2018), filtradas pelo dicionário do LibreOffice</td>
+<td>Sugestões e deslize</td>
+<td>CC BY-SA 4.0</td>
+<td>Hermit Dave</td>
+</tr>
+<tr class="even">
+<td>Lista de palavras bloqueadas (List of Dirty, Naughty, Obscene and Otherwise Bad Words)</td>
+<td>Bloqueio de palavrões nas sugestões</td>
+<td>CC BY 4.0</td>
+<td>Os autores da lista</td>
+</tr>
+<tr class="odd">
+<td>Biblioteca padrão da linguagem Rust</td>
+<td>Motor do teclado</td>
+<td>MIT ou Apache 2.0, à escolha</td>
+<td>The Rust Project Developers</td>
+</tr>
+<tr class="even">
+<td>Biblioteca padrão da linguagem Kotlin</td>
+<td>Aplicativo Android</td>
+<td>Apache 2.0</td>
+<td>JetBrains s.r.o. e colaboradores</td>
+</tr>
+</tbody>
+</table>
+<p>As listas de palavras vão num arquivo à parte dentro do aplicativo e continuam sob a CC BY-SA 4.0: você pode copiá-las e adaptá-las nos termos dessa licença, que não se estende ao resto do aplicativo.</p>
+<p>A fonte G360 Matematica pode ser usada, estudada, modificada e redistribuída nos termos da SIL Open Font License 1.1, mas não pode ser vendida sozinha. Os parâmetros das fontes de Donald Knuth (Computer Modern), usados no desenho, são valores numéricos publicados.</p>
+<h2 id="textos-das-licenças">Textos das licenças</h2>
+<ul>
+<li>SIL Open Font License 1.1: <a href="https://openfontlicense.org">openfontlicense.org</a></li>
+<li>MIT (KaTeX): <a href="https://github.com/KaTeX/KaTeX/blob/main/LICENSE">github.com/KaTeX/KaTeX/blob/main/LICENSE</a></li>
+<li>CC BY-SA 4.0: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br">creativecommons.org/licenses/by-sa/4.0/deed.pt-br</a></li>
+<li>CC BY 4.0: <a href="https://creativecommons.org/licenses/by/4.0/deed.pt-br">creativecommons.org/licenses/by/4.0/deed.pt-br</a></li>
+<li>Rust (MIT e Apache 2.0): <a href="https://github.com/rust-lang/rust/blob/master/COPYRIGHT">github.com/rust-lang/rust/blob/master/COPYRIGHT</a></li>
+<li>Apache 2.0 (Kotlin): <a href="https://www.apache.org/licenses/LICENSE-2.0"><span>www.apache.org/licenses/LICENSE-2.0</span></a></li>
+</ul>
+<p>O aplicativo traz uma cópia de cada um desses textos, na tela "Sobre e licenças".</p>
+</article></div>
+</main>
+<footer class="rodape"><div class="dentro"><a href="documentacao.html">Documentação</a><a href="licenca.html">Licença de uso</a><a href="privacidade.html">Privacidade</a><a href="terceiros.html">Componentes de terceiros</a><span class="direitos">© 2026 Lucas Matos e Souza. Todos os direitos reservados.</span></div></footer>
+<script>
+(function () {
+  var b = document.getElementById('tema');
+  if (!b) { return; }
+  function label() { var d = document.documentElement.getAttribute('data-tema') === 'escuro'; b.textContent = d ? b.dataset.claro : b.dataset.escuro; b.setAttribute('aria-pressed', d ? 'true' : 'false'); }
+  label();
+  b.addEventListener('click', function () {
+    var d = document.documentElement.getAttribute('data-tema') === 'escuro';
+    if (d) { document.documentElement.removeAttribute('data-tema'); } else { document.documentElement.setAttribute('data-tema', 'escuro'); }
+    try { localStorage.setItem('t360-site-tema', d ? 'claro' : 'escuro'); } catch (e) {}
+    label();
+  });
+})();
+</script>
+</body>
+</html>
