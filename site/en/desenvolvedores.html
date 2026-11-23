@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For app developers | Teclado360</title>
+<meta name="description" content="How to mark a field in your app for formula mode and how the keyboard reads other fields.">
+<meta name="theme-color" content="#F7F6FA">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='1' y='3' width='30' height='26' rx='7' fill='%235B21B6'/%3E%3Cg fill='%23fff'%3E%3Crect x='6' y='9' width='4' height='4' rx='1'/%3E%3Crect x='14' y='9' width='4' height='4' rx='1'/%3E%3Crect x='22' y='9' width='4' height='4' rx='1'/%3E%3Crect x='9' y='19' width='14' height='4' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="alternate" hreflang="pt-BR" href="../desenvolvedores.html">
+<script>try{if(localStorage.getItem('t360-site-tema')==='escuro'){document.documentElement.setAttribute('data-tema','escuro')}}catch(e){}</script>
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Skip to content</a>
+<header class="topo"><div class="topo-dentro">
+<a class="marca" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="3" width="30" height="26" rx="7" fill="var(--marca)"/><g fill="var(--marca-texto)"><rect x="6" y="9" width="4" height="4" rx="1"/><rect x="14" y="9" width="4" height="4" rx="1"/><rect x="22" y="9" width="4" height="4" rx="1"/><rect x="9" y="19" width="14" height="4" rx="1.5"/></g></svg>Teclado360</a>
+<nav aria-label="Documentation"><a href="index.html">Overview</a><a href="documentacao.html" aria-current="page">Documentation</a><a href="privacidade.html">Privacy</a></nav>
+<div class="acoes">
+<a class="botao-topo" href="../desenvolvedores.html" hreflang="pt-BR" lang="pt-BR" aria-label="Português">PT</a>
+<button class="botao-topo" id="tema" type="button" data-escuro="Dark theme" data-claro="Light theme">Dark theme</button>
+</div>
+</div></header>
+<main id="conteudo">
+<div class="doc"><nav class="doc-nav" aria-label="Documentation"><details class="doc-menu" open><summary>Documentation pages</summary><h2>Using Teclado360</h2><ul><li><a href="documentacao.html">Documentation</a></li><li><a href="instalar.html">Install and turn on</a></li><li><a href="digitar.html">Typing</a></li><li><a href="formulas.html">Formula mode</a></li><li><a href="desenvolvedores.html" aria-current="page">For app developers</a></li></ul><h2>Licenses and privacy</h2><ul><li><a href="licenca.html">App license agreement</a></li><li><a href="privacidade.html">Privacy policy</a></li><li><a href="terceiros.html">Third-party components</a></li></ul></details></nav><script>try{if(matchMedia('(max-width: 900px)').matches){document.querySelector('.doc-menu').removeAttribute('open')}}catch(e){}</script><article class="doc-corpo"><h1>For app developers</h1><p class="descricao">How to mark a field in your app for formula mode and how the keyboard reads other fields.</p><p>Any Android app works with Teclado360 without changing anything. This page is for those who want to offer the math keyboard in a field of their own app, or want the keyboard to get each field's type right.</p>
+<h2 id="mark-a-field-for-formulas">Mark a field for formulas</h2>
+<p>Formula mode only shows up in the fields you mark. On Android, use <code>privateImeOptions</code>:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">EditText</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ot">    android:id=</span><span class="st">&quot;@+id/answer&quot;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ot">    android:inputType=</span><span class="st">&quot;text&quot;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ot">    android:privateImeOptions=</span><span class="st">&quot;app.teclado360.formula&quot;</span> /&gt;</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th>Value</th>
+<th>What the field receives</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>app.teclado360.formula</code></td>
+<td>LaTeX: <code>x^2+1</code>, <code>\frac{1}{2}</code></td>
+</tr>
+<tr class="even">
+<td><code>app.teclado360.formula-unicode</code></td>
+<td>Readable text: <code>x²+1</code>, <code>½</code></td>
+</tr>
+</tbody>
+</table>
+<p>People without Teclado360 see the field with their own keyboard, with no side effects.</p>
+<p>When it opens a field that already has a formula, the keyboard starts from it: a LaTeX field with <code>\sqrt{2}</code> opens with the root drawn and the cursor at the end.</p>
+<h2 id="how-the-keyboard-reads-other-fields">How the keyboard reads other fields</h2>
+<p>Teclado360 follows what the field already tells the system:</p>
+<table>
+<thead>
+<tr class="header">
+<th>In the field</th>
+<th>The keyboard</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A number, decimal or phone <code>inputType</code></td>
+<td>Opens the numeric keyboard (phone with +)</td>
+</tr>
+<tr class="even">
+<td>An e-mail or web address <code>inputType</code></td>
+<td>Brings @, the dot and the keys these fields use; no swiping</td>
+</tr>
+<tr class="odd">
+<td>A password <code>inputType</code>, or the <code>IME_FLAG_NO_PERSONALIZED_LEARNING</code> option</td>
+<td>Treats it as private: no suggestions, no swiping and no learning</td>
+</tr>
+<tr class="even">
+<td><code>imeOptions</code> (<code>actionNext</code>, <code>actionDone</code>, <code>actionSearch</code>, <code>actionGo</code>, <code>actionSend</code>)</td>
+<td>Shows the right action on ↵</td>
+</tr>
+</tbody>
+</table>
+<h2 id="iphone-and-ipad">iPhone and iPad</h2>
+<p>The iOS app comes after version 1.0. On iOS, the system does not pass marks like <code>privateImeOptions</code> to an installed keyboard; how to offer formula mode on those devices will be published here with the app.</p>
+<h2 id="using-teclado360-inside-other-products">Using Teclado360 inside other products</h2>
+<p>The Teclado360 engine and the web version, which runs inside the page, are private: only Gabarito360 and the products of its ecosystem may use them. For other uses, write to <a href="mailto:suporte@teclado360.app">suporte@teclado360.app</a>.</p>
+</article></div>
+</main>
+<footer class="rodape"><div class="dentro"><a href="documentacao.html">Documentation</a><a href="licenca.html">License agreement</a><a href="privacidade.html">Privacy</a><a href="terceiros.html">Third-party components</a><span class="direitos">© 2026 Lucas Matos e Souza. All rights reserved.</span></div></footer>
+<script>
+(function () {
+  var b = document.getElementById('tema');
+  if (!b) { return; }
+  function label() { var d = document.documentElement.getAttribute('data-tema') === 'escuro'; b.textContent = d ? b.dataset.claro : b.dataset.escuro; b.setAttribute('aria-pressed', d ? 'true' : 'false'); }
+  label();
+  b.addEventListener('click', function () {
+    var d = document.documentElement.getAttribute('data-tema') === 'escuro';
+    if (d) { document.documentElement.removeAttribute('data-tema'); } else { document.documentElement.setAttribute('data-tema', 'escuro'); }
+    try { localStorage.setItem('t360-site-tema', d ? 'claro' : 'escuro'); } catch (e) {}
+    label();
+  });
+})();
+</script>
+</body>
+</html>

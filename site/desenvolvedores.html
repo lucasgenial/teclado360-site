@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Para quem desenvolve aplicativos | Teclado360</title>
+<meta name="description" content="Como marcar um campo do seu aplicativo para o modo fórmula e como o teclado lê os outros campos.">
+<meta name="theme-color" content="#F7F6FA">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='1' y='3' width='30' height='26' rx='7' fill='%235B21B6'/%3E%3Cg fill='%23fff'%3E%3Crect x='6' y='9' width='4' height='4' rx='1'/%3E%3Crect x='14' y='9' width='4' height='4' rx='1'/%3E%3Crect x='22' y='9' width='4' height='4' rx='1'/%3E%3Crect x='9' y='19' width='14' height='4' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="alternate" hreflang="en" href="en/desenvolvedores.html">
+<script>try{if(localStorage.getItem('t360-site-tema')==='escuro'){document.documentElement.setAttribute('data-tema','escuro')}}catch(e){}</script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header class="topo"><div class="topo-dentro">
+<a class="marca" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="3" width="30" height="26" rx="7" fill="var(--marca)"/><g fill="var(--marca-texto)"><rect x="6" y="9" width="4" height="4" rx="1"/><rect x="14" y="9" width="4" height="4" rx="1"/><rect x="22" y="9" width="4" height="4" rx="1"/><rect x="9" y="19" width="14" height="4" rx="1.5"/></g></svg>Teclado360</a>
+<nav aria-label="Documentação"><a href="index.html">Apresentação</a><a href="documentacao.html" aria-current="page">Documentação</a><a href="privacidade.html">Privacidade</a></nav>
+<div class="acoes">
+<a class="botao-topo" href="en/desenvolvedores.html" hreflang="en" lang="en" aria-label="English">EN</a>
+<button class="botao-topo" id="tema" type="button" data-escuro="Tema escuro" data-claro="Tema claro">Tema escuro</button>
+</div>
+</div></header>
+<main id="conteudo">
+<div class="doc"><nav class="doc-nav" aria-label="Documentação"><details class="doc-menu" open><summary>Páginas da documentação</summary><h2>Usar o Teclado360</h2><ul><li><a href="documentacao.html">Documentação</a></li><li><a href="instalar.html">Instalar e ativar</a></li><li><a href="digitar.html">Digitar</a></li><li><a href="formulas.html">Modo fórmula</a></li><li><a href="desenvolvedores.html" aria-current="page">Para quem desenvolve aplicativos</a></li></ul><h2>Licenças e privacidade</h2><ul><li><a href="licenca.html">Licença de uso do aplicativo</a></li><li><a href="privacidade.html">Política de privacidade</a></li><li><a href="terceiros.html">Componentes de terceiros</a></li></ul></details></nav><script>try{if(matchMedia('(max-width: 900px)').matches){document.querySelector('.doc-menu').removeAttribute('open')}}catch(e){}</script><article class="doc-corpo"><h1>Para quem desenvolve aplicativos</h1><p class="descricao">Como marcar um campo do seu aplicativo para o modo fórmula e como o teclado lê os outros campos.</p><p>Qualquer aplicativo Android funciona com o Teclado360 sem mudar nada. Esta página é para quem quer oferecer o teclado de Matemática num campo do próprio aplicativo, ou quer que o teclado acerte o tipo de cada campo.</p>
+<h2 id="marcar-um-campo-para-fórmulas">Marcar um campo para fórmulas</h2>
+<p>O modo fórmula só aparece nos campos que você marcar. No Android, use <code>privateImeOptions</code>:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">EditText</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ot">    android:id=</span><span class="st">&quot;@+id/resposta&quot;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ot">    android:inputType=</span><span class="st">&quot;text&quot;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ot">    android:privateImeOptions=</span><span class="st">&quot;app.teclado360.formula&quot;</span> /&gt;</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th>Valor</th>
+<th>O que o campo recebe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>app.teclado360.formula</code></td>
+<td>LaTeX: <code>x^2+1</code>, <code>\frac{1}{2}</code></td>
+</tr>
+<tr class="even">
+<td><code>app.teclado360.formula-unicode</code></td>
+<td>Texto legível: <code>x²+1</code>, <code>½</code></td>
+</tr>
+</tbody>
+</table>
+<p>Quem não tem o Teclado360 instalado vê o campo com o próprio teclado, sem nenhum efeito colateral.</p>
+<p>Ao abrir um campo que já tem uma fórmula, o teclado parte dela: um campo LaTeX com <code>\sqrt{2}</code> abre com a raiz desenhada e o cursor no fim.</p>
+<h2 id="como-o-teclado-lê-os-outros-campos">Como o teclado lê os outros campos</h2>
+<p>O Teclado360 segue o que o campo já diz ao sistema:</p>
+<table>
+<thead>
+<tr class="header">
+<th>No campo</th>
+<th>O teclado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>inputType</code> de número, decimal ou telefone</td>
+<td>Abre o teclado numérico (telefone com +)</td>
+</tr>
+<tr class="even">
+<td><code>inputType</code> de e-mail ou endereço da web</td>
+<td>Traz @, ponto e as teclas desses campos; sem deslize</td>
+</tr>
+<tr class="odd">
+<td><code>inputType</code> de senha, ou a opção <code>IME_FLAG_NO_PERSONALIZED_LEARNING</code></td>
+<td>Trata como campo privado: sem sugestões, sem deslize e sem aprender palavras</td>
+</tr>
+<tr class="even">
+<td><code>imeOptions</code> (<code>actionNext</code>, <code>actionDone</code>, <code>actionSearch</code>, <code>actionGo</code>, <code>actionSend</code>)</td>
+<td>Mostra no ↵ a ação certa</td>
+</tr>
+</tbody>
+</table>
+<h2 id="iphone-e-ipad">iPhone e iPad</h2>
+<p>O aplicativo para iOS chega depois da versão 1.0. No iOS, o sistema não repassa marcas como <code>privateImeOptions</code> ao teclado instalado; a forma de oferecer o modo fórmula nesses aparelhos será publicada aqui com o aplicativo.</p>
+<h2 id="uso-do-teclado360-dentro-de-outros-produtos">Uso do Teclado360 dentro de outros produtos</h2>
+<p>O motor do Teclado360 e a versão web, que roda dentro da página, são privados: só o Gabarito360 e os produtos do ecossistema dele podem usá-los. Para outros usos, escreva para <a href="mailto:suporte@teclado360.app">suporte@teclado360.app</a>.</p>
+</article></div>
+</main>
+<footer class="rodape"><div class="dentro"><a href="documentacao.html">Documentação</a><a href="licenca.html">Licença de uso</a><a href="privacidade.html">Privacidade</a><a href="terceiros.html">Componentes de terceiros</a><span class="direitos">© 2026 Lucas Matos e Souza. Todos os direitos reservados.</span></div></footer>
+<script>
+(function () {
+  var b = document.getElementById('tema');
+  if (!b) { return; }
+  function label() { var d = document.documentElement.getAttribute('data-tema') === 'escuro'; b.textContent = d ? b.dataset.claro : b.dataset.escuro; b.setAttribute('aria-pressed', d ? 'true' : 'false'); }
+  label();
+  b.addEventListener('click', function () {
+    var d = document.documentElement.getAttribute('data-tema') === 'escuro';
+    if (d) { document.documentElement.removeAttribute('data-tema'); } else { document.documentElement.setAttribute('data-tema', 'escuro'); }
+    try { localStorage.setItem('t360-site-tema', d ? 'claro' : 'escuro'); } catch (e) {}
+    label();
+  });
+})();
+</script>
+</body>
+</html>
