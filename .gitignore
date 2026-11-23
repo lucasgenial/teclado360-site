@@ -1,0 +1,3 @@
+# Python caches from tools/build.py
+__pycache__/
+*.pyc
